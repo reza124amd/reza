@@ -1,0 +1,44 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: rem;
+    list-style: none;
+}
+
+nav div img {
+    width: 50px;
+
+}
+
+nav ul il a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    -o-transition-duration: 300ms;
+    border-bottom: 1px solid rgba(128, 0, 128, 0)
+}
+
+nav ul il a:hover {
+    color: purple;
+    border-bottom: 1px solid black;
+}
